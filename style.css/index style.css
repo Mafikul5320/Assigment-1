@@ -6,6 +6,9 @@
     font-variation-settings:
       "wdth" 100,
       "YTLC" 500;
+      width: 80%;
+      margin: auto;
+      background-color: #fafafa;
   }
 
   .font-size{
@@ -31,7 +34,7 @@
     background-color: #C6E4D6;
     height: 750px;
     border-radius: 45px;
-    margin: 100px 180px;
+    /* margin: 100px 180px; */
     display: flex;
 }
 .bd{
@@ -67,4 +70,131 @@ color: #0E0E0E;
     color: white;
     font-weight: 600;
     border: none;
+}
+.backround{
+    background-color: #F1F1F3;
+    border-radius: 6px;
+    height: 50px;
+    
+}
+.skill-cointainer{
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    gap: 20px;
+}
+
+.skill1{
+    background-color: #d5e1f5;
+    padding: 30px;
+    border-radius: 10px;
+}
+.skill1 button{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding-right: 10px;
+    background-color: #619bff;
+}
+.skill2{
+    background-color: #c6e4d6;
+    padding: 30px;
+    border-radius: 10px;
+}
+.skill2 button{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #37ffa2;
+    border: none;
+    color: white;
+    font-size: 22px;
+}
+.skill3{
+    background-color: #f7ebcf;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+.skill3 button{
+    padding-top: 6px;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding-bottom: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffc338;
+}
+.news-card{
+    display: flex;
+    gap: 35px;
+    padding: 48px;
+    background-color: #ffffff;
+    border-radius: 40px;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+.news-card button{
+    background-color: #006a50;
+    color: white;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+}
+.news-card-img img{
+    border-radius: 40px;
+    height: 400px;
+}
+.donate-today h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+.donate-today p{
+    text-align: center;
+}
+.tk-btn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+.tk-btn button{
+    padding: 26px 23px;
+    font-size: 25px;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+.text-box input{
+    padding: 20px 30px;
+    width: 1000px;
+    margin-left: 200px;
+}
+.text-box{
+    margin-top: 30px;
+}
+.dn-btn-container{
+    margin: auto;
+    text-align: center;
+}
+.dn-btn{
+    padding: 19px 45px;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 7px;
+    background-color: #006A50;
+    color: white;
+    border: none;
+    margin-top: 20px;
 }
