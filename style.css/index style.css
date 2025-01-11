@@ -130,6 +130,23 @@ color: #0E0E0E;
     padding-right: 10px;
     background-color: #ffc338;
 }
+.news-head{
+    font-size: 45px;
+    font-weight: 900;
+
+}
+.head-tittle h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.head-tittle1 h1{
+    font-size: 35px;
+    font-weight: 800;
+}
+.head-tittle2 h1{
+    font-size: 35px;
+    font-weight: 800;
+}
 .news-card{
     display: flex;
     gap: 35px;
@@ -144,11 +161,8 @@ color: #0E0E0E;
     color: white;
     border-radius: 10px;
     font-size: 22px;
-    font-weight: 500;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    font-weight: 600;
+    padding: 14px 22px;
     border: none;
 }
 .news-card-img img{
@@ -157,11 +171,14 @@ color: #0E0E0E;
 }
 .donate-today h1{
     text-align: center;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 40px;
 }
 .donate-today p{
     text-align: center;
+    margin-left: 100px;
+    width: 80%;
+
 }
 .tk-btn{
     display: flex;
@@ -174,12 +191,28 @@ color: #0E0E0E;
     font-size: 25px;
     font-weight: 800;
     border-radius: 10px;
+    transform: scale(1.1);
+    background-color: white;
+    border: 2px solid #F1F1F3;
+    /* c6e4d6 */
+}
+.tk-btn button:hover{
+    background-color: #c6e4d6;
 }
 
-.text-box input{
+.cv{
     padding: 20px 30px;
-    width: 1000px;
+    width: 922px;
+    height: 25px;
     margin-left: 200px;
+    background-color: white;
+    border: 2px solid #F1F1F3;
+}
+.cv::placeholder {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    color: #ababb3;
 }
 .text-box{
     margin-top: 30px;
@@ -202,7 +235,7 @@ color: #0E0E0E;
 .challenges-container{
     background-color: #C6E4D6;
     border-radius: 20px;
-    height: 350px;
+    height: 400px;
     align-content: center;
     margin-top: 20px;
 }
@@ -218,11 +251,11 @@ color: #0E0E0E;
     margin: auto;
 }
 .text-cont input{
-    padding: 20px 30px;
+    padding: 19px 30px;
     width: 700px;
     margin-left: 0px;
     border-radius: 10px 0px 0px 10px;
-    margin-right: -4px;
+    margin-right: -3px;
     border: none;
 
 }
@@ -238,4 +271,24 @@ color: #0E0E0E;
 }
 .paragrap{
     text-align: center;   
+}
+.Muhammad-Yunus{
+    background-color: white;
+    margin-top: 15px;
+    border-radius: 15px;
+    border: 2px solid #F1F1F3;
+    height: 250px;
+    margin-bottom: 15px;
+}
+.tattle-contin{
+    margin-left: 20px;
+    margin-right: 15px;
+    font-weight: 800;
+    background: url('./assets//quote-bg.png') ;
+    background-repeat: no-repeat;
+}
+
+.Muhammad-Yunus h{
+    margin-bottom: 0%;
+
 }
