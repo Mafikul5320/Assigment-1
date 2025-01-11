@@ -183,6 +183,7 @@ color: #0E0E0E;
 }
 .text-box{
     margin-top: 30px;
+    border-radius: 20px;
 }
 .dn-btn-container{
     margin: auto;
@@ -197,4 +198,44 @@ color: #0E0E0E;
     color: white;
     border: none;
     margin-top: 20px;
+}
+.challenges-container{
+    background-color: #C6E4D6;
+    border-radius: 20px;
+    height: 350px;
+    align-content: center;
+    margin-top: 20px;
+}
+.container-box{
+    text-align: center;
+}
+.container-box p{
+    width: 43%;
+    margin-left: 400px;
+}
+.text-cont{
+    text-align: center;
+    margin: auto;
+}
+.text-cont input{
+    padding: 20px 30px;
+    width: 700px;
+    margin-left: 0px;
+    border-radius: 10px 0px 0px 10px;
+    margin-right: -4px;
+    border: none;
+
+}
+.text-cont button{
+    padding: 18px 30px;
+    margin-left: 0px;
+    border-radius:  0px 10px 10px 0px;
+    border: none;
+    background-color: #006A50;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+}
+.paragrap{
+    text-align: center;   
 }
